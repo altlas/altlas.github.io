@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     text-align: center;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
@@ -56,7 +57,10 @@ img {
 
 .video{
     grid-area: video;
-    margin: 3em;
+}
+
+#demo-video{
+    width: 100%;
 }
 
 .footer{
